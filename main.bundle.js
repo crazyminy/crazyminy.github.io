@@ -4203,7 +4203,7 @@ eval("module.exports = function(module) {\n\tif (!module.webpackPolyfill) {\n\t\
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"fetchMdFile\", function() { return fetchMdFile; });\nfunction fetchMdFile() {\n  return new Promise(function (resolve, reject) {\n    fetch(\"http://47.100.224.40/md/cjyyxl.md\", {\n      cache: 'no-cache',\n      // *default, no-cache, reload, force-cache, only-if-cached\n      mode: 'cors',\n      // no-cors, cors, *same-origin\n      headers: {\n        'content-type': 'text/html;charset=UTF-8'\n      },\n      method: \"GET\" // *GET, POST, PUT, DELETE, etc.\n\n    }).then(function (response) {\n      return response.text();\n    }).then(function (responseBody) {\n      resolve(responseBody);\n    });\n  });\n}\n\n//# sourceURL=webpack:///./src/api/ajax.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"fetchMdFile\", function() { return fetchMdFile; });\nfunction fetchMdFile() {\n  return new Promise(function (resolve, reject) {\n    fetch(\"47.100.224.40/md/cjyyxl.md\", {\n      cache: 'no-cache',\n      // *default, no-cache, reload, force-cache, only-if-cached\n      mode: 'cors',\n      // no-cors, cors, *same-origin\n      headers: {\n        'content-type': 'text/html;charset=UTF-8'\n      },\n      method: \"GET\" // *GET, POST, PUT, DELETE, etc.\n\n    }).then(function (response) {\n      return response.text();\n    }).then(function (responseBody) {\n      resolve(responseBody);\n    });\n  });\n}\n\n//# sourceURL=webpack:///./src/api/ajax.js?");
 
 /***/ }),
 
